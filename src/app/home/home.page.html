@@ -1,14 +1,91 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Ionic Blank
+      Beautfiul Animals
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+<ion-content fullscreen>
+  <div id="catPlaceHolder">
+    <div id="catCharacter1"></div>
+    <div id="catCharacter2"></div>
+    <div id="catCharacter3"></div>
+    <div id="catCharacter4"></div>
+    <div id="catCharacter5"></div>
+    <div id="catCharacter6"></div>
+    <div id="catCharacter7"></div>
+    <div id="catCharacter8"></div>
+  </div>
+  <div id="dogPlaceHolder">
+    <div id="dogCharacter1"></div>
+    <div id="dogCharacter2"></div>
+    <div id="dogCharacter3"></div>
+    <div id="dogCharacter4"></div>
+    <div id="dogCharacter5"></div>
+    <div id="dogCharacter6"></div>
+    <div id="dogCharacter7"></div>
+    <div id="dogCharacter8"></div>
+  </div>
+  <div id="ratPlaceHolder">
+    <div id="ratCharacter1"></div>
+    <div id="ratCharacter2"></div>
+    <div id="ratCharacter3"></div>
+    <div id="ratCharacter4"></div>
+    <div id="ratCharacter5"></div>
+    <div id="ratCharacter6"></div>
+    <div id="ratCharacter7"></div>
+    <div id="ratCharacter8"></div>
+  </div>
+  <ion-grid id="grid-button">
+    <ion-row>
+      <ion-col class="button" (click)="showType('catbuttons')">Cats</ion-col>
+      <ion-col class="button" (click)="showType('dogbuttons')">Dogs</ion-col>
+      <ion-col class="button" (click)="showType('ratbuttons')">Rats</ion-col>
+    </ion-row>
+  </ion-grid>
+  <div id="buttonplacement">
+    <ion-grid id="catbuttons">
+      <ion-row>
+        <ion-col class="styling" id="cat1" (click)="showCats('catCharacter1')"></ion-col>
+        <ion-col class="styling" id="cat2" (click)="showCats('catCharacter2')"></ion-col>
+        <ion-col class="styling" id="cat3" (click)="showCats('catCharacter3')"></ion-col>
+        <ion-col class="styling" id="cat4" (click)="showCats('catCharacter4')"></ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="styling" id="cat5" (click)="showCats('catCharacter5')"></ion-col>
+        <ion-col class="styling" id="cat6" (click)="showCats('catCharacter6')"></ion-col>
+        <ion-col class="styling" id="cat7" (click)="showCats('catCharacter7')"></ion-col>
+        <ion-col class="styling" id="cat8" (click)="showCats('catCharacter8')"></ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-grid id="dogbuttons">
+      <ion-row>
+        <ion-col class="styling" id="dog1" (click)="showDogs('dogCharacter1')"></ion-col>
+        <ion-col class="styling" id="dog2" (click)="showDogs('dogCharacter2')"></ion-col>
+        <ion-col class="styling" id="dog3" (click)="showDogs('dogCharacter3')"></ion-col>
+        <ion-col class="styling" id="dog4" (click)="showDogs('dogCharacter4')"></ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="styling" id="dog5" (click)="showDogs('dogCharacter5')"></ion-col>
+        <ion-col class="styling" id="dog6" (click)="showDogs('dogCharacter6')"></ion-col>
+        <ion-col class="styling" id="dog7" (click)="showDogs('dogCharacter7')"></ion-col>
+        <ion-col class="styling" id="dog8" (click)="showDogs('dogCharacter8')"></ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-grid id="ratbuttons">
+      <ion-row>
+        <ion-col class="styling" id="rat1" (click)="showRats('ratCharacter1')"></ion-col>
+        <ion-col class="styling" id="rat2" (click)="showRats('ratCharacter2')"></ion-col>
+        <ion-col class="styling" id="rat3" (click)="showRats('ratCharacter3')"></ion-col>
+        <ion-col class="styling" id="rat4" (click)="showRats('ratCharacter4')"></ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="styling" id="rat5" (click)="showRats('ratCharacter5')"></ion-col>
+        <ion-col class="styling" id="rat6" (click)="showRats('ratCharacter6')"></ion-col>
+        <ion-col class="styling" id="rat7" (click)="showRats('ratCharacter7')"></ion-col>
+        <ion-col class="styling" id="rat8" (click)="showRats('ratCharacter8')"></ion-col>
+      </ion-row>
+    </ion-grid>
   </div>
 </ion-content>

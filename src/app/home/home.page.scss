@@ -1,1 +1,458 @@
+#catPlaceHolder
+{
+    width: 100%;
+    height: 50%;
+    border: solid 1px #ddd;
+    display: block;
+}
 
+#dogPlaceHolder
+{
+    width: 100%;
+    height: 50%;
+    border: solid 1px #ddd;
+    display: none;
+}
+
+#ratPlaceHolder
+{
+    width: 100%;
+    height: 50%;
+    border: solid 1px #ddd;
+    display: none;
+}
+
+#grid-button
+{
+    width: 100%;
+    height: 50px;
+}
+
+.button
+{
+    text-align: center;
+}
+
+#buttonplacement
+{
+    width: 100%;
+    height: 110px;
+}
+
+#catbuttons 
+{
+    display: block;
+    width: 100%;
+    height: 50%;
+}
+
+#dogbuttons
+{
+    display: none;
+    width: 100%;
+    height: 50%;
+}
+
+#ratbuttons
+{
+    display: none;
+    width: 100%;
+    height: 50%;
+}
+.styling
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+.button {
+    width: 50%;
+    height: 25%;
+}
+#cat1
+{
+    background-image: url("../../assets/catPhotots/cat1.jpeg");
+}
+
+#cat2
+{
+    background-image: url("../../assets/catPhotots/cat2.jpeg");
+}
+
+#cat3
+{
+    background-image: url("../../assets/catPhotots/cat3.jpg");
+}
+
+#cat4
+{
+    background-image: url("../../assets/catPhotots/cat4.jpeg");
+}
+
+#cat5
+{
+    background-image: url("../../assets/catPhotots/cat5.jpg");
+}
+
+#cat6
+{
+    background-image: url("../../assets/catPhotots/cat6.jpg");
+}
+
+#cat7
+{
+    background-image: url("../../assets/catPhotots/cat7.jpg");
+}
+
+#cat8
+{
+    background-image: url("../../assets/catPhotots/cat8.jpg");
+}
+
+#catCharacter1
+{
+    background-image: url("../../assets/catPhotots/cat1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#catCharacter2
+{
+    background-image: url("../../assets/catPhotots/cat2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#catCharacter3
+{
+    background-image: url("../../assets/catPhotots/cat3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#catCharacter4
+{
+    background-image: url("../../assets/catPhotots/cat4.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#catCharacter5
+{
+    background-image: url("../../assets/catPhotots/cat5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#catCharacter6
+{
+    background-image: url("../../assets/catPhotots/cat6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#catCharacter7
+{
+    background-image: url("../../assets/catPhotots/cat7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#catCharacter8
+{
+    background-image: url("../../assets/catPhotots/cat8.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#dog1
+{
+    background-image: url("../../assets/dogPhotos/dog1.jpg");
+}
+
+#dog2
+{
+    background-image: url("../../assets/dogPhotos/dog2.jpg");
+}
+
+#dog3
+{
+    background-image: url("../../assets/dogPhotos/dog3.jpeg");
+}
+
+#dog4
+{
+    background-image: url("../../assets/dogPhotos/dog4.jpg");
+}
+
+#dog5
+{
+    background-image: url("../../assets/dogPhotos/dog5.jpg");
+}
+
+#dog6
+{
+    background-image: url("../../assets/dogPhotos/dog6.jpg");
+}
+
+#dog7
+{
+    background-image: url("../../assets/dogPhotos/dog7.jpeg");
+}
+
+#dog8
+{
+    background-image: url("../../assets/dogPhotos/dog8.jpeg");
+}
+
+#dogCharacter1
+{
+    background-image: url("../../assets/dogPhotos/dog1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#dogCharacter2
+{
+    background-image: url("../../assets/dogPhotos/dog2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#dogCharacter3
+{
+    background-image: url("../../assets/dogPhotos/dog3.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#dogCharacter4
+{
+    background-image: url("../../assets/dogPhotos/dog4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#dogCharacter5
+{
+    background-image: url("../../assets/dogPhotos/dog5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#dogCharacter6
+{
+    background-image: url("../../assets/dogPhotos/dog6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#dogCharacter7
+{
+    background-image: url("../../assets/dogPhotos/dog7.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#dogCharacter8
+{
+    background-image: url("../../assets/dogPhotos/dog8.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#rat1
+{
+    background-image: url("../../assets/ratPhotos/rat1.png");
+}
+
+#rat2
+{
+    background-image: url("../../assets/ratPhotos/rat2.jpg");
+}
+
+#rat3
+{
+    background-image: url("../../assets/ratPhotos/rat3.jpg");
+}
+
+#rat4
+{
+    background-image: url("../../assets/ratPhotos/rat4.jpg");
+}
+
+#rat5
+{
+    background-image: url("../../assets/ratPhotos/rat5.jpg");
+}
+
+#rat6
+{
+    background-image: url("../../assets/ratPhotos/rat6.jpg");
+}
+
+#rat7
+{
+    background-image: url("../../assets/ratPhotos/rat7.jpg");
+}
+
+#rat8
+{
+    background-image: url("../../assets/ratPhotos/rat8.png");
+}
+
+#ratCharacter1
+{
+    background-image: url("../../assets/ratPhotos/rat1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#ratCharacter2
+{
+    background-image: url("../../assets/ratPhotos/rat2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#ratCharacter3
+{
+    background-image: url("../../assets/ratPhotos/rat3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#ratCharacter4
+{
+    background-image: url("../../assets/ratPhotos/rat4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#ratCharacter5
+{
+    background-image: url("../../assets/ratPhotos/rat5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#ratCharacter6
+{
+    background-image: url("../../assets/ratPhotos/rat6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#ratCharacter7
+{
+    background-image: url("../../assets/ratPhotos/rat7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#ratCharacter8
+{
+    background-image: url("../../assets/ratPhotos/rat8.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
